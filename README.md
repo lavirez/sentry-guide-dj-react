@@ -15,7 +15,6 @@ The following code sample will let you choose your personal config from the drop
 
 .
 
-Copied
 
 ```javascript
 import { createRoot } from "react-dom/client";
@@ -70,7 +69,6 @@ root.render(<App />);
 
 Install `sentry-sdk` from PyPI with the `django` extra:
 
-Copied
 
 ```bash
 pip install --upgrade 'sentry-sdk[django]'
@@ -106,8 +104,6 @@ https://examplePublicKey@o0.ingest.sentry.io/0",
 ## Verify
 
 The snippet below includes an intentional error that will be captured by Sentry when triggered. This will allow you to make sure that everything is working as soon as you set it up:
-
-Copied
 
 ```python
 from django.urls import path
